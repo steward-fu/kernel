@@ -1,0 +1,27 @@
+SRCARCH=arm
+CONFIG_PERF_REGS=y
+CONFIG_SETNS=y
+CONFIG_LIBELF=y
+CONFIG_DWARF=y
+CONFIG_LIBBPF=y
+CONFIG_JITDUMP=y
+CONFIG_LIBDW_DWARF_UNWIND=y
+CONFIG_DWARF_UNWIND=y
+CONFIG_ZLIB=y
+CONFIG_AUXTRACE=y
+JDIR=/usr/lib/jvm/java-1.11.0-openjdk-amd64
+bindir_SQ=/home/steward/bin
+PYTHON_WORD='/usr/bin/python2'
+htmldir_SQ=share/doc/perf-doc
+infodir_SQ=share/info
+mandir_SQ=share/man
+ETC_PERFCONFIG_SQ=etc/perfconfig
+STRACE_GROUPS_DIR_SQ=share/perf-core/strace/groups
+prefix_SQ=/home/steward
+perfexecdir_SQ=libexec/perf-core
+tipdir_SQ=share/doc/perf-tip
+srcdir_SQ=/home/steward/Data/pocketgo/kernel/tools/perf
+LIBDIR=
+GTK_CFLAGS=
+PERL_EMBED_CCOPTS= -D_REENTRANT -D_GNU_SOURCE -DDEBIAN -fwrapv -fno-strict-aliasing -pipe -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64  -I/usr/lib/x86_64-linux-gnu/perl/5.28/CORE 
+PYTHON_EMBED_CCOPTS=-I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu/python2.7 -fno-strict-aliasing -Wdate-time -D_FORTIFY_SOURCE=2 -g -fdebug-prefix-map=/build/python2.7-2.7.16=. -fstack-protector-strong -Wformat -Werror=format-security -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes

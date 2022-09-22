@@ -1,0 +1,14 @@
+pocketgo and trimui: 
+  arch/arm/boot/dts/suniv.dts
+    mmc 4-bits
+    uart-1
+  arch/arm/boot/dts/suniv.dtsi
+    mmc 4-pin
+
+fc3000: 
+  arch/arm/boot/dts/suniv.dts
+    mmc 1-bit
+    uart-0
+  arch/arm/boot/dts/suniv.dtsi
+    mmc 1-pin
+

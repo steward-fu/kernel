@@ -1,0 +1,3 @@
+/opt/miyoo/lib/gcc/arm-miyoo-linux-uclibcgnueabi/7.3.0/../../../../arm-miyoo-linux-uclibcgnueabi/bin/ld: cannot find -lssp_nonshared
+/opt/miyoo/lib/gcc/arm-miyoo-linux-uclibcgnueabi/7.3.0/../../../../arm-miyoo-linux-uclibcgnueabi/bin/ld: cannot find -lssp
+collect2: error: ld returned 1 exit status

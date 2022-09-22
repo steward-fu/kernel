@@ -1,0 +1,2 @@
+arm-linux-gcc: WARNING: unsafe header/library path used in cross-compilation: '-I/usr/lib/jvm/java-1.11.0-openjdk-amd64/include'
+arm-linux-gcc: WARNING: unsafe header/library path used in cross-compilation: '-I/usr/lib/jvm/java-1.11.0-openjdk-amd64/include/linux'
