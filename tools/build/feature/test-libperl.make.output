@@ -1,0 +1,2651 @@
+arm-linux-gcc: WARNING: unsafe header/library path used in cross-compilation: '-I/usr/local/include'
+arm-linux-gcc: WARNING: unsafe header/library path used in cross-compilation: '-I/usr/lib/x86_64-linux-gnu/perl/5.28/CORE'
+arm-linux-gcc: WARNING: unsafe header/library path used in cross-compilation: '-L/usr/local/lib'
+arm-linux-gcc: WARNING: unsafe header/library path used in cross-compilation: '-L/usr/lib/x86_64-linux-gnu/perl/5.28/CORE'
+In file included from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:55:0,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv.h:653,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/perl.h:3645,
+                 from test-libperl.c:3:
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h: In function ‘stadtx_seed_state’:
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:126:13: error: left shift count >= width of type [-Werror=shift-count-overflow]
+     v ^= (v << 35);                         \
+             ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:126:13: note: in definition of macro ‘STADTX_SCRAMBLE64’
+     v ^= (v << 35);                         \
+             ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:131:13: error: right shift count >= width of type [-Werror=shift-count-overflow]
+     v ^= (v >> 46);                         \
+             ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:131:13: note: in definition of macro ‘STADTX_SCRAMBLE64’
+     v ^= (v >> 46);                         \
+             ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:126:13: error: left shift count >= width of type [-Werror=shift-count-overflow]
+     v ^= (v << 35);                         \
+             ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:126:13: note: in definition of macro ‘STADTX_SCRAMBLE64’
+     v ^= (v << 35);                         \
+             ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:131:13: error: right shift count >= width of type [-Werror=shift-count-overflow]
+     v ^= (v >> 46);                         \
+             ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:131:13: note: in definition of macro ‘STADTX_SCRAMBLE64’
+     v ^= (v >> 46);                         \
+             ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:126:13: error: left shift count >= width of type [-Werror=shift-count-overflow]
+     v ^= (v << 35);                         \
+             ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:126:13: note: in definition of macro ‘STADTX_SCRAMBLE64’
+     v ^= (v << 35);                         \
+             ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:131:13: error: right shift count >= width of type [-Werror=shift-count-overflow]
+     v ^= (v >> 46);                         \
+             ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:131:13: note: in definition of macro ‘STADTX_SCRAMBLE64’
+     v ^= (v >> 46);                         \
+             ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:126:13: error: left shift count >= width of type [-Werror=shift-count-overflow]
+     v ^= (v << 35);                         \
+             ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:126:13: note: in definition of macro ‘STADTX_SCRAMBLE64’
+     v ^= (v << 35);                         \
+             ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:131:13: error: right shift count >= width of type [-Werror=shift-count-overflow]
+     v ^= (v >> 46);                         \
+             ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:131:13: note: in definition of macro ‘STADTX_SCRAMBLE64’
+     v ^= (v >> 46);                         \
+             ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:126:13: error: left shift count >= width of type [-Werror=shift-count-overflow]
+     v ^= (v << 35);                         \
+             ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:126:13: note: in definition of macro ‘STADTX_SCRAMBLE64’
+     v ^= (v << 35);                         \
+             ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:131:13: error: right shift count >= width of type [-Werror=shift-count-overflow]
+     v ^= (v >> 46);                         \
+             ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:131:13: note: in definition of macro ‘STADTX_SCRAMBLE64’
+     v ^= (v >> 46);                         \
+             ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:126:13: error: left shift count >= width of type [-Werror=shift-count-overflow]
+     v ^= (v << 35);                         \
+             ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:126:13: note: in definition of macro ‘STADTX_SCRAMBLE64’
+     v ^= (v << 35);                         \
+             ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:131:13: error: right shift count >= width of type [-Werror=shift-count-overflow]
+     v ^= (v >> 46);                         \
+             ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:131:13: note: in definition of macro ‘STADTX_SCRAMBLE64’
+     v ^= (v >> 46);                         \
+             ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:126:13: error: left shift count >= width of type [-Werror=shift-count-overflow]
+     v ^= (v << 35);                         \
+             ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:126:13: note: in definition of macro ‘STADTX_SCRAMBLE64’
+     v ^= (v << 35);                         \
+             ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:131:13: error: right shift count >= width of type [-Werror=shift-count-overflow]
+     v ^= (v >> 46);                         \
+             ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:131:13: note: in definition of macro ‘STADTX_SCRAMBLE64’
+     v ^= (v >> 46);                         \
+             ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:126:13: error: left shift count >= width of type [-Werror=shift-count-overflow]
+     v ^= (v << 35);                         \
+             ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:126:13: note: in definition of macro ‘STADTX_SCRAMBLE64’
+     v ^= (v << 35);                         \
+             ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:131:13: error: right shift count >= width of type [-Werror=shift-count-overflow]
+     v ^= (v >> 46);                         \
+             ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:131:13: note: in definition of macro ‘STADTX_SCRAMBLE64’
+     v ^= (v >> 46);                         \
+             ^~
+In file included from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:11:0,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv.h:653,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/perl.h:3645,
+                 from test-libperl.c:3:
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h: In function ‘stadtx_hash_with_state’:
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^~
+In file included from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:55:0,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv.h:653,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/perl.h:3645,
+                 from test-libperl.c:3:
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:37: note: in definition of macro ‘ROTR64’
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                     ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:68: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                                                    ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:68: note: in definition of macro ‘ROTR64’
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                                                    ^~
+In file included from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:11:0,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv.h:653,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/perl.h:3645,
+                 from test-libperl.c:3:
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^~
+In file included from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:55:0,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv.h:653,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/perl.h:3645,
+                 from test-libperl.c:3:
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:37: note: in definition of macro ‘ROTR64’
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                     ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:68: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                                                    ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:68: note: in definition of macro ‘ROTR64’
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                                                    ^~
+In file included from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:11:0,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv.h:653,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/perl.h:3645,
+                 from test-libperl.c:3:
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^~
+In file included from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:55:0,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv.h:653,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/perl.h:3645,
+                 from test-libperl.c:3:
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:37: note: in definition of macro ‘ROTR64’
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                     ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:68: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                                                    ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:68: note: in definition of macro ‘ROTR64’
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                                                    ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:218:39: error: left shift count >= width of type [-Werror=shift-count-overflow]
+             case 7: v0 += (U64)key[6] << 32;
+                                       ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:220:39: error: left shift count >= width of type [-Werror=shift-count-overflow]
+             case 6: v1 += (U64)key[5] << 48;
+                                       ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:226:39: error: left shift count >= width of type [-Werror=shift-count-overflow]
+             case 3: v0 += (U64)key[2] << 48;
+                                       ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: note: in definition of macro ‘ROTL64’
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: note: in definition of macro ‘ROTL64’
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:68: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                                                    ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:68: note: in definition of macro ‘ROTR64’
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                                                    ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: note: in definition of macro ‘ROTL64’
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: note: in definition of macro ‘ROTL64’
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: note: in definition of macro ‘ROTL64’
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: note: in definition of macro ‘ROTL64’
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: note: in definition of macro ‘ROTL64’
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: note: in definition of macro ‘ROTL64’
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:68: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                                                    ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:68: note: in definition of macro ‘ROTR64’
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                                                    ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:37: note: in definition of macro ‘ROTR64’
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                     ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: note: in definition of macro ‘ROTL64’
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:37: note: in definition of macro ‘ROTR64’
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                     ^~
+In file included from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:11:0,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv.h:653,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/perl.h:3645,
+                 from test-libperl.c:3:
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^~
+In file included from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:55:0,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv.h:653,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/perl.h:3645,
+                 from test-libperl.c:3:
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: note: in definition of macro ‘ROTL64’
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^~
+In file included from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:11:0,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv.h:653,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/perl.h:3645,
+                 from test-libperl.c:3:
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^~
+In file included from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:55:0,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv.h:653,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/perl.h:3645,
+                 from test-libperl.c:3:
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: note: in definition of macro ‘ROTL64’
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^~
+In file included from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:11:0,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv.h:653,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/perl.h:3645,
+                 from test-libperl.c:3:
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^~
+In file included from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:55:0,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv.h:653,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/perl.h:3645,
+                 from test-libperl.c:3:
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:68: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                                                    ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:68: note: in definition of macro ‘ROTR64’
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                                                    ^~
+In file included from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:11:0,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv.h:653,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/perl.h:3645,
+                 from test-libperl.c:3:
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^~
+In file included from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:55:0,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv.h:653,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/perl.h:3645,
+                 from test-libperl.c:3:
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:37: note: in definition of macro ‘ROTR64’
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                     ^~
+In file included from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:11:0,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv.h:653,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/perl.h:3645,
+                 from test-libperl.c:3:
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^~
+In file included from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:55:0,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv.h:653,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/perl.h:3645,
+                 from test-libperl.c:3:
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: note: in definition of macro ‘ROTL64’
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^~
+In file included from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:11:0,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv.h:653,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/perl.h:3645,
+                 from test-libperl.c:3:
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^~
+In file included from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:55:0,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv.h:653,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/perl.h:3645,
+                 from test-libperl.c:3:
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: note: in definition of macro ‘ROTL64’
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^~
+In file included from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:11:0,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv.h:653,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/perl.h:3645,
+                 from test-libperl.c:3:
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^~
+In file included from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:55:0,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv.h:653,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/perl.h:3645,
+                 from test-libperl.c:3:
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:68: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                                                    ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:68: note: in definition of macro ‘ROTR64’
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                                                    ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:37: note: in definition of macro ‘ROTR64’
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                     ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: note: in definition of macro ‘ROTL64’
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: note: in definition of macro ‘ROTL64’
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:37: note: in definition of macro ‘ROTR64’
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                     ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:68: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                                                    ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:68: note: in definition of macro ‘ROTR64’
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                                                    ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: note: in definition of macro ‘ROTL64’
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:37: note: in definition of macro ‘ROTR64’
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                     ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:68: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                                                    ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:68: note: in definition of macro ‘ROTR64’
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                                                    ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: note: in definition of macro ‘ROTL64’
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:37: note: in definition of macro ‘ROTR64’
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                     ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:37: note: in definition of macro ‘ROTR64’
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                     ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:68: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                                                    ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:68: note: in definition of macro ‘ROTR64’
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                                                    ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:37: note: in definition of macro ‘ROTR64’
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                     ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:37: note: in definition of macro ‘ROTR64’
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                     ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: note: in definition of macro ‘ROTL64’
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:68: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                                                    ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:68: note: in definition of macro ‘ROTR64’
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                                                    ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:110:37: note: in definition of macro ‘ROTR64’
+   #define ROTR64(x,r)  ( ( (U64)(x) << ( 64 - (r) ) ) | ( (U64)(x) >> (r) ) )
+                                     ^~
+In file included from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:11:0,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv.h:653,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/perl.h:3645,
+                 from test-libperl.c:3:
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h: In function ‘S_perl_siphash_seed_state’:
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:196:5: note: in expansion of macro ‘SIPHASH_SEED_STATE’
+     SIPHASH_SEED_STATE(seed_buf, v[0],v[1],v[2],v[3]);
+     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:196:5: note: in expansion of macro ‘SIPHASH_SEED_STATE’
+     SIPHASH_SEED_STATE(seed_buf, v[0],v[1],v[2],v[3]);
+     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:196:5: note: in expansion of macro ‘SIPHASH_SEED_STATE’
+     SIPHASH_SEED_STATE(seed_buf, v[0],v[1],v[2],v[3]);
+     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:196:5: note: in expansion of macro ‘SIPHASH_SEED_STATE’
+     SIPHASH_SEED_STATE(seed_buf, v[0],v[1],v[2],v[3]);
+     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:196:5: note: in expansion of macro ‘SIPHASH_SEED_STATE’
+     SIPHASH_SEED_STATE(seed_buf, v[0],v[1],v[2],v[3]);
+     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:196:5: note: in expansion of macro ‘SIPHASH_SEED_STATE’
+     SIPHASH_SEED_STATE(seed_buf, v[0],v[1],v[2],v[3]);
+     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:196:5: note: in expansion of macro ‘SIPHASH_SEED_STATE’
+     SIPHASH_SEED_STATE(seed_buf, v[0],v[1],v[2],v[3]);
+     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:196:5: note: in expansion of macro ‘SIPHASH_SEED_STATE’
+     SIPHASH_SEED_STATE(seed_buf, v[0],v[1],v[2],v[3]);
+     ^
+In file included from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv.h:653:0,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/perl.h:3645,
+                 from test-libperl.c:3:
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h: In function ‘S_perl_hash_siphash_1_3_with_state’:
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:207:30: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   U64 b = ( ( U64 )(inlen) ) << 56;         \
+                              ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:207:30: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   U64 b = ( ( U64 )(inlen) ) << 56;         \
+                              ^~
+In file included from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:11:0,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv.h:653,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/perl.h:3645,
+                 from test-libperl.c:3:
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:259:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:259:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:259:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:259:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:259:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:259:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:259:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:259:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:259:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:259:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:259:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:259:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:259:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:259:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:259:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:259:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:259:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:259:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:259:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:259:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+In file included from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv.h:653:0,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/perl.h:3645,
+                 from test-libperl.c:3:
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:219:5: note: in definition of macro ‘PERL_SIPHASH_FNC’
+     SIP_ROUNDS;                             \
+     ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:176:18: note: in expansion of macro ‘ROTL64’
+     v0 += v1; v1=ROTL64(v1,13); v1 ^= v0; v0=ROTL64(v0,32); \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:261:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:219:5: note: in definition of macro ‘PERL_SIPHASH_FNC’
+     SIP_ROUNDS;                             \
+     ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:176:46: note: in expansion of macro ‘ROTL64’
+     v0 += v1; v1=ROTL64(v1,13); v1 ^= v0; v0=ROTL64(v0,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:261:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:219:5: note: in definition of macro ‘PERL_SIPHASH_FNC’
+     SIP_ROUNDS;                             \
+     ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:176:46: note: in expansion of macro ‘ROTL64’
+     v0 += v1; v1=ROTL64(v1,13); v1 ^= v0; v0=ROTL64(v0,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:261:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:219:5: note: in definition of macro ‘PERL_SIPHASH_FNC’
+     SIP_ROUNDS;                             \
+     ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:177:18: note: in expansion of macro ‘ROTL64’
+     v2 += v3; v3=ROTL64(v3,16); v3 ^= v2;     \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:261:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:219:5: note: in definition of macro ‘PERL_SIPHASH_FNC’
+     SIP_ROUNDS;                             \
+     ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:178:18: note: in expansion of macro ‘ROTL64’
+     v0 += v3; v3=ROTL64(v3,21); v3 ^= v0;     \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:261:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:219:5: note: in definition of macro ‘PERL_SIPHASH_FNC’
+     SIP_ROUNDS;                             \
+     ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:179:18: note: in expansion of macro ‘ROTL64’
+     v2 += v1; v1=ROTL64(v1,17); v1 ^= v2; v2=ROTL64(v2,32); \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:261:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:219:5: note: in definition of macro ‘PERL_SIPHASH_FNC’
+     SIP_ROUNDS;                             \
+     ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:179:46: note: in expansion of macro ‘ROTL64’
+     v2 += v1; v1=ROTL64(v1,17); v1 ^= v2; v2=ROTL64(v2,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:261:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:219:5: note: in definition of macro ‘PERL_SIPHASH_FNC’
+     SIP_ROUNDS;                             \
+     ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:179:46: note: in expansion of macro ‘ROTL64’
+     v2 += v1; v1=ROTL64(v1,17); v1 ^= v2; v2=ROTL64(v2,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:261:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:226:35: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   case 7: b |= ( ( U64 )in[ 6] )  << 48;    \
+                                   ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:226:35: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   case 7: b |= ( ( U64 )in[ 6] )  << 48;    \
+                                   ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:227:35: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   case 6: b |= ( ( U64 )in[ 5] )  << 40;    \
+                                   ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:227:35: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   case 6: b |= ( ( U64 )in[ 5] )  << 40;    \
+                                   ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:228:35: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   case 5: b |= ( ( U64 )in[ 4] )  << 32;    \
+                                   ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:228:35: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   case 5: b |= ( ( U64 )in[ 4] )  << 32;    \
+                                   ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:238:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_ROUNDS;                               \
+   ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:176:18: note: in expansion of macro ‘ROTL64’
+     v0 += v1; v1=ROTL64(v1,13); v1 ^= v0; v0=ROTL64(v0,32); \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:261:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:238:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_ROUNDS;                               \
+   ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:176:46: note: in expansion of macro ‘ROTL64’
+     v0 += v1; v1=ROTL64(v1,13); v1 ^= v0; v0=ROTL64(v0,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:261:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:238:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_ROUNDS;                               \
+   ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:176:46: note: in expansion of macro ‘ROTL64’
+     v0 += v1; v1=ROTL64(v1,13); v1 ^= v0; v0=ROTL64(v0,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:261:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:238:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_ROUNDS;                               \
+   ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:177:18: note: in expansion of macro ‘ROTL64’
+     v2 += v3; v3=ROTL64(v3,16); v3 ^= v2;     \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:261:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:238:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_ROUNDS;                               \
+   ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:178:18: note: in expansion of macro ‘ROTL64’
+     v0 += v3; v3=ROTL64(v3,21); v3 ^= v0;     \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:261:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:238:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_ROUNDS;                               \
+   ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:179:18: note: in expansion of macro ‘ROTL64’
+     v2 += v1; v1=ROTL64(v1,17); v1 ^= v2; v2=ROTL64(v2,32); \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:261:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:238:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_ROUNDS;                               \
+   ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:179:46: note: in expansion of macro ‘ROTL64’
+     v2 += v1; v1=ROTL64(v1,17); v1 ^= v2; v2=ROTL64(v2,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:261:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:238:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_ROUNDS;                               \
+   ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:179:46: note: in expansion of macro ‘ROTL64’
+     v2 += v1; v1=ROTL64(v1,17); v1 ^= v2; v2=ROTL64(v2,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:261:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:176:18: note: in expansion of macro ‘ROTL64’
+     v0 += v1; v1=ROTL64(v1,13); v1 ^= v0; v0=ROTL64(v0,32); \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:262:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:176:46: note: in expansion of macro ‘ROTL64’
+     v0 += v1; v1=ROTL64(v1,13); v1 ^= v0; v0=ROTL64(v0,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:262:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:176:46: note: in expansion of macro ‘ROTL64’
+     v0 += v1; v1=ROTL64(v1,13); v1 ^= v0; v0=ROTL64(v0,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:262:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:177:18: note: in expansion of macro ‘ROTL64’
+     v2 += v3; v3=ROTL64(v3,16); v3 ^= v2;     \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:262:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:178:18: note: in expansion of macro ‘ROTL64’
+     v0 += v3; v3=ROTL64(v3,21); v3 ^= v0;     \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:262:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:179:18: note: in expansion of macro ‘ROTL64’
+     v2 += v1; v1=ROTL64(v1,17); v1 ^= v2; v2=ROTL64(v2,32); \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:262:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:179:46: note: in expansion of macro ‘ROTL64’
+     v2 += v1; v1=ROTL64(v1,17); v1 ^= v2; v2=ROTL64(v2,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:262:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:179:46: note: in expansion of macro ‘ROTL64’
+     v2 += v1; v1=ROTL64(v1,17); v1 ^= v2; v2=ROTL64(v2,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:262:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:176:18: note: in expansion of macro ‘ROTL64’
+     v0 += v1; v1=ROTL64(v1,13); v1 ^= v0; v0=ROTL64(v0,32); \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:262:15: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;
+               ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:176:46: note: in expansion of macro ‘ROTL64’
+     v0 += v1; v1=ROTL64(v1,13); v1 ^= v0; v0=ROTL64(v0,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:262:15: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;
+               ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:176:46: note: in expansion of macro ‘ROTL64’
+     v0 += v1; v1=ROTL64(v1,13); v1 ^= v0; v0=ROTL64(v0,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:262:15: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;
+               ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:177:18: note: in expansion of macro ‘ROTL64’
+     v2 += v3; v3=ROTL64(v3,16); v3 ^= v2;     \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:262:15: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;
+               ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:178:18: note: in expansion of macro ‘ROTL64’
+     v0 += v3; v3=ROTL64(v3,21); v3 ^= v0;     \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:262:15: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;
+               ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:179:18: note: in expansion of macro ‘ROTL64’
+     v2 += v1; v1=ROTL64(v1,17); v1 ^= v2; v2=ROTL64(v2,32); \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:262:15: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;
+               ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:179:46: note: in expansion of macro ‘ROTL64’
+     v2 += v1; v1=ROTL64(v1,17); v1 ^= v2; v2=ROTL64(v2,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:262:15: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;
+               ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:179:46: note: in expansion of macro ‘ROTL64’
+     v2 += v1; v1=ROTL64(v1,17); v1 ^= v2; v2=ROTL64(v2,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:262:15: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;
+               ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:176:18: note: in expansion of macro ‘ROTL64’
+     v0 += v1; v1=ROTL64(v1,13); v1 ^= v0; v0=ROTL64(v0,32); \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:262:24: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;
+                        ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:176:46: note: in expansion of macro ‘ROTL64’
+     v0 += v1; v1=ROTL64(v1,13); v1 ^= v0; v0=ROTL64(v0,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:262:24: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;
+                        ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:176:46: note: in expansion of macro ‘ROTL64’
+     v0 += v1; v1=ROTL64(v1,13); v1 ^= v0; v0=ROTL64(v0,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:262:24: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;
+                        ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:177:18: note: in expansion of macro ‘ROTL64’
+     v2 += v3; v3=ROTL64(v3,16); v3 ^= v2;     \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:262:24: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;
+                        ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:178:18: note: in expansion of macro ‘ROTL64’
+     v0 += v3; v3=ROTL64(v3,21); v3 ^= v0;     \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:262:24: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;
+                        ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:179:18: note: in expansion of macro ‘ROTL64’
+     v2 += v1; v1=ROTL64(v1,17); v1 ^= v2; v2=ROTL64(v2,32); \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:262:24: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;
+                        ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:179:46: note: in expansion of macro ‘ROTL64’
+     v2 += v1; v1=ROTL64(v1,17); v1 ^= v2; v2=ROTL64(v2,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:262:24: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;
+                        ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:179:46: note: in expansion of macro ‘ROTL64’
+     v2 += v1; v1=ROTL64(v1,17); v1 ^= v2; v2=ROTL64(v2,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:262:24: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;
+                        ^
+In file included from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:11:0,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv.h:653,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/perl.h:3645,
+                 from test-libperl.c:3:
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h: In function ‘S_perl_hash_siphash_1_3’:
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:254:5: note: in expansion of macro ‘SIPHASH_SEED_STATE’
+     SIPHASH_SEED_STATE(seed,state[0],state[1],state[2],state[3]);   \
+     ^~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:259:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:254:5: note: in expansion of macro ‘SIPHASH_SEED_STATE’
+     SIPHASH_SEED_STATE(seed,state[0],state[1],state[2],state[3]);   \
+     ^~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:259:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:254:5: note: in expansion of macro ‘SIPHASH_SEED_STATE’
+     SIPHASH_SEED_STATE(seed,state[0],state[1],state[2],state[3]);   \
+     ^~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:259:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:254:5: note: in expansion of macro ‘SIPHASH_SEED_STATE’
+     SIPHASH_SEED_STATE(seed,state[0],state[1],state[2],state[3]);   \
+     ^~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:259:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:254:5: note: in expansion of macro ‘SIPHASH_SEED_STATE’
+     SIPHASH_SEED_STATE(seed,state[0],state[1],state[2],state[3]);   \
+     ^~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:259:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:254:5: note: in expansion of macro ‘SIPHASH_SEED_STATE’
+     SIPHASH_SEED_STATE(seed,state[0],state[1],state[2],state[3]);   \
+     ^~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:259:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:254:5: note: in expansion of macro ‘SIPHASH_SEED_STATE’
+     SIPHASH_SEED_STATE(seed,state[0],state[1],state[2],state[3]);   \
+     ^~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:259:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:254:5: note: in expansion of macro ‘SIPHASH_SEED_STATE’
+     SIPHASH_SEED_STATE(seed,state[0],state[1],state[2],state[3]);   \
+     ^~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:259:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+In file included from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv.h:653:0,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/perl.h:3645,
+                 from test-libperl.c:3:
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h: In function ‘S_perl_hash_siphash_2_4_with_state’:
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:207:30: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   U64 b = ( ( U64 )(inlen) ) << 56;         \
+                              ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:207:30: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   U64 b = ( ( U64 )(inlen) ) << 56;         \
+                              ^~
+In file included from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:11:0,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv.h:653,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/perl.h:3645,
+                 from test-libperl.c:3:
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:265:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:265:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:265:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:265:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:265:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:265:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:265:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:265:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:265:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:265:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:265:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:265:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:265:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:265:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:265:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:265:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:265:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:265:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:265:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:265:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+In file included from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv.h:653:0,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/perl.h:3645,
+                 from test-libperl.c:3:
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:219:5: note: in definition of macro ‘PERL_SIPHASH_FNC’
+     SIP_ROUNDS;                             \
+     ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:176:18: note: in expansion of macro ‘ROTL64’
+     v0 += v1; v1=ROTL64(v1,13); v1 ^= v0; v0=ROTL64(v0,32); \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:267:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:219:5: note: in definition of macro ‘PERL_SIPHASH_FNC’
+     SIP_ROUNDS;                             \
+     ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:176:46: note: in expansion of macro ‘ROTL64’
+     v0 += v1; v1=ROTL64(v1,13); v1 ^= v0; v0=ROTL64(v0,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:267:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:219:5: note: in definition of macro ‘PERL_SIPHASH_FNC’
+     SIP_ROUNDS;                             \
+     ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:176:46: note: in expansion of macro ‘ROTL64’
+     v0 += v1; v1=ROTL64(v1,13); v1 ^= v0; v0=ROTL64(v0,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:267:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:219:5: note: in definition of macro ‘PERL_SIPHASH_FNC’
+     SIP_ROUNDS;                             \
+     ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:177:18: note: in expansion of macro ‘ROTL64’
+     v2 += v3; v3=ROTL64(v3,16); v3 ^= v2;     \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:267:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:219:5: note: in definition of macro ‘PERL_SIPHASH_FNC’
+     SIP_ROUNDS;                             \
+     ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:178:18: note: in expansion of macro ‘ROTL64’
+     v0 += v3; v3=ROTL64(v3,21); v3 ^= v0;     \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:267:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:219:5: note: in definition of macro ‘PERL_SIPHASH_FNC’
+     SIP_ROUNDS;                             \
+     ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:179:18: note: in expansion of macro ‘ROTL64’
+     v2 += v1; v1=ROTL64(v1,17); v1 ^= v2; v2=ROTL64(v2,32); \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:267:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:219:5: note: in definition of macro ‘PERL_SIPHASH_FNC’
+     SIP_ROUNDS;                             \
+     ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:179:46: note: in expansion of macro ‘ROTL64’
+     v2 += v1; v1=ROTL64(v1,17); v1 ^= v2; v2=ROTL64(v2,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:267:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:219:5: note: in definition of macro ‘PERL_SIPHASH_FNC’
+     SIP_ROUNDS;                             \
+     ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:179:46: note: in expansion of macro ‘ROTL64’
+     v2 += v1; v1=ROTL64(v1,17); v1 ^= v2; v2=ROTL64(v2,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:267:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:219:5: note: in definition of macro ‘PERL_SIPHASH_FNC’
+     SIP_ROUNDS;                             \
+     ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:176:18: note: in expansion of macro ‘ROTL64’
+     v0 += v1; v1=ROTL64(v1,13); v1 ^= v0; v0=ROTL64(v0,32); \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:267:15: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;
+               ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:219:5: note: in definition of macro ‘PERL_SIPHASH_FNC’
+     SIP_ROUNDS;                             \
+     ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:176:46: note: in expansion of macro ‘ROTL64’
+     v0 += v1; v1=ROTL64(v1,13); v1 ^= v0; v0=ROTL64(v0,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:267:15: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;
+               ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:219:5: note: in definition of macro ‘PERL_SIPHASH_FNC’
+     SIP_ROUNDS;                             \
+     ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:176:46: note: in expansion of macro ‘ROTL64’
+     v0 += v1; v1=ROTL64(v1,13); v1 ^= v0; v0=ROTL64(v0,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:267:15: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;
+               ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:219:5: note: in definition of macro ‘PERL_SIPHASH_FNC’
+     SIP_ROUNDS;                             \
+     ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:177:18: note: in expansion of macro ‘ROTL64’
+     v2 += v3; v3=ROTL64(v3,16); v3 ^= v2;     \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:267:15: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;
+               ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:219:5: note: in definition of macro ‘PERL_SIPHASH_FNC’
+     SIP_ROUNDS;                             \
+     ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:178:18: note: in expansion of macro ‘ROTL64’
+     v0 += v3; v3=ROTL64(v3,21); v3 ^= v0;     \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:267:15: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;
+               ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:219:5: note: in definition of macro ‘PERL_SIPHASH_FNC’
+     SIP_ROUNDS;                             \
+     ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:179:18: note: in expansion of macro ‘ROTL64’
+     v2 += v1; v1=ROTL64(v1,17); v1 ^= v2; v2=ROTL64(v2,32); \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:267:15: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;
+               ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:219:5: note: in definition of macro ‘PERL_SIPHASH_FNC’
+     SIP_ROUNDS;                             \
+     ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:179:46: note: in expansion of macro ‘ROTL64’
+     v2 += v1; v1=ROTL64(v1,17); v1 ^= v2; v2=ROTL64(v2,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:267:15: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;
+               ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:219:5: note: in definition of macro ‘PERL_SIPHASH_FNC’
+     SIP_ROUNDS;                             \
+     ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:179:46: note: in expansion of macro ‘ROTL64’
+     v2 += v1; v1=ROTL64(v1,17); v1 ^= v2; v2=ROTL64(v2,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:267:15: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;
+               ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:226:35: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   case 7: b |= ( ( U64 )in[ 6] )  << 48;    \
+                                   ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:226:35: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   case 7: b |= ( ( U64 )in[ 6] )  << 48;    \
+                                   ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:227:35: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   case 6: b |= ( ( U64 )in[ 5] )  << 40;    \
+                                   ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:227:35: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   case 6: b |= ( ( U64 )in[ 5] )  << 40;    \
+                                   ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:228:35: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   case 5: b |= ( ( U64 )in[ 4] )  << 32;    \
+                                   ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:228:35: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   case 5: b |= ( ( U64 )in[ 4] )  << 32;    \
+                                   ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:238:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_ROUNDS;                               \
+   ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:176:18: note: in expansion of macro ‘ROTL64’
+     v0 += v1; v1=ROTL64(v1,13); v1 ^= v0; v0=ROTL64(v0,32); \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:267:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:238:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_ROUNDS;                               \
+   ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:176:46: note: in expansion of macro ‘ROTL64’
+     v0 += v1; v1=ROTL64(v1,13); v1 ^= v0; v0=ROTL64(v0,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:267:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:238:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_ROUNDS;                               \
+   ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:176:46: note: in expansion of macro ‘ROTL64’
+     v0 += v1; v1=ROTL64(v1,13); v1 ^= v0; v0=ROTL64(v0,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:267:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:238:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_ROUNDS;                               \
+   ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:177:18: note: in expansion of macro ‘ROTL64’
+     v2 += v3; v3=ROTL64(v3,16); v3 ^= v2;     \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:267:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:238:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_ROUNDS;                               \
+   ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:178:18: note: in expansion of macro ‘ROTL64’
+     v0 += v3; v3=ROTL64(v3,21); v3 ^= v0;     \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:267:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:238:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_ROUNDS;                               \
+   ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:179:18: note: in expansion of macro ‘ROTL64’
+     v2 += v1; v1=ROTL64(v1,17); v1 ^= v2; v2=ROTL64(v2,32); \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:267:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:238:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_ROUNDS;                               \
+   ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:179:46: note: in expansion of macro ‘ROTL64’
+     v2 += v1; v1=ROTL64(v1,17); v1 ^= v2; v2=ROTL64(v2,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:267:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:238:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_ROUNDS;                               \
+   ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:179:46: note: in expansion of macro ‘ROTL64’
+     v2 += v1; v1=ROTL64(v1,17); v1 ^= v2; v2=ROTL64(v2,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:267:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:238:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_ROUNDS;                               \
+   ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:176:18: note: in expansion of macro ‘ROTL64’
+     v0 += v1; v1=ROTL64(v1,13); v1 ^= v0; v0=ROTL64(v0,32); \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:267:15: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;
+               ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:238:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_ROUNDS;                               \
+   ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:176:46: note: in expansion of macro ‘ROTL64’
+     v0 += v1; v1=ROTL64(v1,13); v1 ^= v0; v0=ROTL64(v0,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:267:15: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;
+               ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:238:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_ROUNDS;                               \
+   ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:176:46: note: in expansion of macro ‘ROTL64’
+     v0 += v1; v1=ROTL64(v1,13); v1 ^= v0; v0=ROTL64(v0,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:267:15: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;
+               ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:238:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_ROUNDS;                               \
+   ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:177:18: note: in expansion of macro ‘ROTL64’
+     v2 += v3; v3=ROTL64(v3,16); v3 ^= v2;     \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:267:15: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;
+               ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:238:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_ROUNDS;                               \
+   ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:178:18: note: in expansion of macro ‘ROTL64’
+     v0 += v3; v3=ROTL64(v3,21); v3 ^= v0;     \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:267:15: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;
+               ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:238:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_ROUNDS;                               \
+   ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:179:18: note: in expansion of macro ‘ROTL64’
+     v2 += v1; v1=ROTL64(v1,17); v1 ^= v2; v2=ROTL64(v2,32); \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:267:15: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;
+               ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:238:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_ROUNDS;                               \
+   ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:179:46: note: in expansion of macro ‘ROTL64’
+     v2 += v1; v1=ROTL64(v1,17); v1 ^= v2; v2=ROTL64(v2,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:267:15: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;
+               ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:238:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_ROUNDS;                               \
+   ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:179:46: note: in expansion of macro ‘ROTL64’
+     v2 += v1; v1=ROTL64(v1,17); v1 ^= v2; v2=ROTL64(v2,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:267:15: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;
+               ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:176:18: note: in expansion of macro ‘ROTL64’
+     v0 += v1; v1=ROTL64(v1,13); v1 ^= v0; v0=ROTL64(v0,32); \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:268:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:176:46: note: in expansion of macro ‘ROTL64’
+     v0 += v1; v1=ROTL64(v1,13); v1 ^= v0; v0=ROTL64(v0,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:268:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:176:46: note: in expansion of macro ‘ROTL64’
+     v0 += v1; v1=ROTL64(v1,13); v1 ^= v0; v0=ROTL64(v0,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:268:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:177:18: note: in expansion of macro ‘ROTL64’
+     v2 += v3; v3=ROTL64(v3,16); v3 ^= v2;     \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:268:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:178:18: note: in expansion of macro ‘ROTL64’
+     v0 += v3; v3=ROTL64(v3,21); v3 ^= v0;     \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:268:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:179:18: note: in expansion of macro ‘ROTL64’
+     v2 += v1; v1=ROTL64(v1,17); v1 ^= v2; v2=ROTL64(v2,32); \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:268:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:179:46: note: in expansion of macro ‘ROTL64’
+     v2 += v1; v1=ROTL64(v1,17); v1 ^= v2; v2=ROTL64(v2,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:268:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:179:46: note: in expansion of macro ‘ROTL64’
+     v2 += v1; v1=ROTL64(v1,17); v1 ^= v2; v2=ROTL64(v2,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:268:6: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;SIPROUND;
+      ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:176:18: note: in expansion of macro ‘ROTL64’
+     v0 += v1; v1=ROTL64(v1,13); v1 ^= v0; v0=ROTL64(v0,32); \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:268:15: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;SIPROUND;
+               ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:176:46: note: in expansion of macro ‘ROTL64’
+     v0 += v1; v1=ROTL64(v1,13); v1 ^= v0; v0=ROTL64(v0,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:268:15: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;SIPROUND;
+               ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:176:46: note: in expansion of macro ‘ROTL64’
+     v0 += v1; v1=ROTL64(v1,13); v1 ^= v0; v0=ROTL64(v0,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:268:15: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;SIPROUND;
+               ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:177:18: note: in expansion of macro ‘ROTL64’
+     v2 += v3; v3=ROTL64(v3,16); v3 ^= v2;     \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:268:15: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;SIPROUND;
+               ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:178:18: note: in expansion of macro ‘ROTL64’
+     v0 += v3; v3=ROTL64(v3,21); v3 ^= v0;     \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:268:15: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;SIPROUND;
+               ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:179:18: note: in expansion of macro ‘ROTL64’
+     v2 += v1; v1=ROTL64(v1,17); v1 ^= v2; v2=ROTL64(v2,32); \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:268:15: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;SIPROUND;
+               ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:179:46: note: in expansion of macro ‘ROTL64’
+     v2 += v1; v1=ROTL64(v1,17); v1 ^= v2; v2=ROTL64(v2,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:268:15: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;SIPROUND;
+               ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:179:46: note: in expansion of macro ‘ROTL64’
+     v2 += v1; v1=ROTL64(v1,17); v1 ^= v2; v2=ROTL64(v2,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:268:15: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;SIPROUND;
+               ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:176:18: note: in expansion of macro ‘ROTL64’
+     v0 += v1; v1=ROTL64(v1,13); v1 ^= v0; v0=ROTL64(v0,32); \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:268:24: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;SIPROUND;
+                        ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:176:46: note: in expansion of macro ‘ROTL64’
+     v0 += v1; v1=ROTL64(v1,13); v1 ^= v0; v0=ROTL64(v0,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:268:24: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;SIPROUND;
+                        ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:176:46: note: in expansion of macro ‘ROTL64’
+     v0 += v1; v1=ROTL64(v1,13); v1 ^= v0; v0=ROTL64(v0,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:268:24: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;SIPROUND;
+                        ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:177:18: note: in expansion of macro ‘ROTL64’
+     v2 += v3; v3=ROTL64(v3,16); v3 ^= v2;     \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:268:24: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;SIPROUND;
+                        ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:178:18: note: in expansion of macro ‘ROTL64’
+     v0 += v3; v3=ROTL64(v3,21); v3 ^= v0;     \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:268:24: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;SIPROUND;
+                        ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:179:18: note: in expansion of macro ‘ROTL64’
+     v2 += v1; v1=ROTL64(v1,17); v1 ^= v2; v2=ROTL64(v2,32); \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:268:24: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;SIPROUND;
+                        ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:179:46: note: in expansion of macro ‘ROTL64’
+     v2 += v1; v1=ROTL64(v1,17); v1 ^= v2; v2=ROTL64(v2,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:268:24: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;SIPROUND;
+                        ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:179:46: note: in expansion of macro ‘ROTL64’
+     v2 += v1; v1=ROTL64(v1,17); v1 ^= v2; v2=ROTL64(v2,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:268:24: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;SIPROUND;
+                        ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:176:18: note: in expansion of macro ‘ROTL64’
+     v0 += v1; v1=ROTL64(v1,13); v1 ^= v0; v0=ROTL64(v0,32); \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:268:33: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;SIPROUND;
+                                 ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:176:46: note: in expansion of macro ‘ROTL64’
+     v0 += v1; v1=ROTL64(v1,13); v1 ^= v0; v0=ROTL64(v0,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:268:33: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;SIPROUND;
+                                 ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:176:46: note: in expansion of macro ‘ROTL64’
+     v0 += v1; v1=ROTL64(v1,13); v1 ^= v0; v0=ROTL64(v0,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:268:33: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;SIPROUND;
+                                 ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:177:18: note: in expansion of macro ‘ROTL64’
+     v2 += v3; v3=ROTL64(v3,16); v3 ^= v2;     \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:268:33: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;SIPROUND;
+                                 ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:178:18: note: in expansion of macro ‘ROTL64’
+     v0 += v3; v3=ROTL64(v3,21); v3 ^= v0;     \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:268:33: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;SIPROUND;
+                                 ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:179:18: note: in expansion of macro ‘ROTL64’
+     v2 += v1; v1=ROTL64(v1,17); v1 ^= v2; v2=ROTL64(v2,32); \
+                  ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:268:33: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;SIPROUND;
+                                 ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:37: error: left shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                     ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:179:46: note: in expansion of macro ‘ROTL64’
+     v2 += v1; v1=ROTL64(v1,17); v1 ^= v2; v2=ROTL64(v2,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:268:33: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;SIPROUND;
+                                 ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/stadtx_hash.h:109:59: error: right shift count >= width of type [-Werror=shift-count-overflow]
+   #define ROTL64(x,r)  ( ( (U64)(x) << (r) ) | ( (U64)(x) >> ( 64 - (r) ) ) )
+                                                           ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:244:3: note: in definition of macro ‘PERL_SIPHASH_FNC’
+   SIP_FINAL_ROUNDS                          \
+   ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:179:46: note: in expansion of macro ‘ROTL64’
+     v2 += v1; v1=ROTL64(v1,17); v1 ^= v2; v2=ROTL64(v2,32); \
+                                              ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:268:33: note: in expansion of macro ‘SIPROUND’
+     ,SIPROUND;SIPROUND;SIPROUND;SIPROUND;
+                                 ^
+In file included from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:11:0,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv.h:653,
+                 from /usr/lib/x86_64-linux-gnu/perl/5.28/CORE/perl.h:3645,
+                 from test-libperl.c:3:
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h: In function ‘S_perl_hash_siphash_2_4’:
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:254:5: note: in expansion of macro ‘SIPHASH_SEED_STATE’
+     SIPHASH_SEED_STATE(seed,state[0],state[1],state[2],state[3]);   \
+     ^~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:265:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:254:5: note: in expansion of macro ‘SIPHASH_SEED_STATE’
+     SIPHASH_SEED_STATE(seed,state[0],state[1],state[2],state[3]);   \
+     ^~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:265:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:254:5: note: in expansion of macro ‘SIPHASH_SEED_STATE’
+     SIPHASH_SEED_STATE(seed,state[0],state[1],state[2],state[3]);   \
+     ^~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:265:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:254:5: note: in expansion of macro ‘SIPHASH_SEED_STATE’
+     SIPHASH_SEED_STATE(seed,state[0],state[1],state[2],state[3]);   \
+     ^~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:265:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:254:5: note: in expansion of macro ‘SIPHASH_SEED_STATE’
+     SIPHASH_SEED_STATE(seed,state[0],state[1],state[2],state[3]);   \
+     ^~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:265:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:42:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[4]<<32|(U64)(ptr)[5]<<40|\
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:254:5: note: in expansion of macro ‘SIPHASH_SEED_STATE’
+     SIPHASH_SEED_STATE(seed,state[0],state[1],state[2],state[3]);   \
+     ^~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:265:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:42: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                          ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:254:5: note: in expansion of macro ‘SIPHASH_SEED_STATE’
+     SIPHASH_SEED_STATE(seed,state[0],state[1],state[2],state[3]);   \
+     ^~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:265:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: error: left shift count >= width of type [-Werror=shift-count-overflow]
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_macro.h:43:60: note: in definition of macro ‘U8TO64_LE’
+                             (U64)(ptr)[6]<<48|(U64)(ptr)[7]<<56)
+                                                            ^~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:254:5: note: in expansion of macro ‘SIPHASH_SEED_STATE’
+     SIPHASH_SEED_STATE(seed,state[0],state[1],state[2],state[3]);   \
+     ^~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.28/CORE/hv_func.h:265:1: note: in expansion of macro ‘PERL_SIPHASH_FNC’
+ PERL_SIPHASH_FNC(
+ ^
+cc1: all warnings being treated as errors

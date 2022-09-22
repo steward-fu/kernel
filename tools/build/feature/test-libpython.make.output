@@ -1,0 +1,10 @@
+arm-linux-gcc: WARNING: unsafe header/library path used in cross-compilation: '-I/usr/include/python2.7'
+arm-linux-gcc: WARNING: unsafe header/library path used in cross-compilation: '-I/usr/include/x86_64-linux-gnu/python2.7'
+arm-linux-gcc: WARNING: unsafe header/library path used in cross-compilation: '-L/usr/lib/python2.7/config-x86_64-linux-gnu'
+arm-linux-gcc: WARNING: unsafe header/library path used in cross-compilation: '-L/usr/lib'
+In file included from /usr/include/python2.7/Python.h:8:0,
+                 from test-libpython.c:2:
+/usr/include/python2.7/pyconfig.h:30:12: fatal error: arm-linux-gnueabi/python2.7/pyconfig.h: No such file or directory
+ #  include <arm-linux-gnueabi/python2.7/pyconfig.h>
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
