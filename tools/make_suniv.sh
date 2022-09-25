@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 function print_help() {
     echo
@@ -19,7 +19,6 @@ if [ "$#" -ne 1 ]; then
 fi
 
 export PATH=/opt/miyoo/bin:$PATH
-ARCH=arm CROSS_COMPILE=arm-linux- make suniv_defconfig
 sed -i -e 's/CONFIG_CMDLINE=.*/CONFIG_CMDLINE="rootwait\ root=\/dev\/mmcblk0p1\ ro\ fstype=vfat\ init=\/mininit\ --\ '$1'"/g' .config
 ARCH=arm CROSS_COMPILE=arm-linux- make zImage modules dtbs -j4
 echo "task done !"
