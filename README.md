@@ -26,3 +26,7 @@ $ ./tools/make_suniv.sh fc3000_ips2
   
 ## How to flash into MicroSD
 https://github.com/steward-fu/bootloader/blob/f1c100s_fc3000_uboot-2018.01/README.md
+  
+## Thanks
+neotendo  
+kendling

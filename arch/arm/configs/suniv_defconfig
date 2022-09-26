@@ -443,7 +443,7 @@ CONFIG_USE_OF=y
 CONFIG_ZBOOT_ROM_TEXT=0
 CONFIG_ZBOOT_ROM_BSS=0
 # CONFIG_ARM_APPENDED_DTB is not set
-CONFIG_CMDLINE="rootwait root=/dev/mmcblk0p1 ro fstype=vfat init=/mininit -- fc3000"
+CONFIG_CMDLINE="rootwait root=/dev/mmcblk0p1 ro fstype=vfat init=/mininit -- fc3000_ips2"
 # CONFIG_KEXEC is not set
 # CONFIG_CRASH_DUMP is not set
 CONFIG_AUTO_ZRELADDR=y
@@ -849,7 +849,18 @@ CONFIG_OF_GPIO=y
 # CONFIG_W1 is not set
 # CONFIG_POWER_AVS is not set
 # CONFIG_POWER_RESET is not set
-# CONFIG_POWER_SUPPLY is not set
+CONFIG_POWER_SUPPLY=y
+# CONFIG_POWER_SUPPLY_DEBUG is not set
+# CONFIG_PDA_POWER is not set
+# CONFIG_TEST_POWER is not set
+# CONFIG_BATTERY_DS2780 is not set
+# CONFIG_BATTERY_DS2781 is not set
+# CONFIG_BATTERY_BQ27XXX is not set
+# CONFIG_CHARGER_MAX8903 is not set
+# CONFIG_CHARGER_GPIO is not set
+# CONFIG_CHARGER_MANAGER is not set
+# CONFIG_CHARGER_LTC3651 is not set
+CONFIG_BATTERY_SUNIV=y
 # CONFIG_HWMON is not set
 # CONFIG_THERMAL is not set
 CONFIG_WATCHDOG=y
