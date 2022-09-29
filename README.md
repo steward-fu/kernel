@@ -1,14 +1,6 @@
-# Linux Kernel 4.14.0 for FC3000 Handheld
+# Linux Kernel 4.14.0 for FC3000 Handheld (QEMU)
 ## Description
-The default serial port is UART0 (PE0, PE1) and default configuration file is arch/arm/configs/suniv_defconfig.  
-  
-## Support LCD panel  
-```console
-fc3000_tft1 = T2812-M106-24C-7D  ->  FC3000 TFT v1
-fc3000_tft2 = T2815-M110-24C-25  ->  FC3000 TFT v2
-fc3000_ips1 = RB411-11A          ->  FC3000 IPS v1
-fc3000_ips2 = WL-28H105-A1       ->  FC3000 IPS v2
-```
+The default configuration file is arch/arm/configs/suniv-qemu_defconfig.  
   
 ## How to setup toolchain
 ```console
@@ -20,9 +12,25 @@ $ sudo mv miyoo /opt
   
 ## How to build kernel
 ```console
-$ ARCH=arm make suniv_defconfig
-$ ./tools/make_suniv.sh fc3000_ips2
+$ ARCH=arm make suniv-qemu_defconfig
+$ ./tools/make_suniv.sh
 ```
   
-## How to flash into MicroSD
-https://github.com/steward-fu/bootloader/blob/f1c100s_fc3000_uboot-2018.01/README.md
+## How to run QEMU for FC3000 handheld
+```
+$ cd
+$ wget https://github.com/steward-fu/fc3000/releases/download/v1.0/fc3000-qemu_20220929.7z
+$ 7za x fc3000-qemu_20220929.7z
+$ ./run.sh
+```
+![Alt text](readme/1.jpg)
+  
+## How to extract rootfs.img
+```
+$ zcat rootfs.img | cpio -idvm
+```
+  
+## How to repack rootfs.img
+```
+$ sudo find . | sudo cpio -o -H newc | gzip -9 > ../rootfs.img
+```

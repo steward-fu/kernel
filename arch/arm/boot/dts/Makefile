@@ -869,6 +869,7 @@ dtb-$(CONFIG_ARCH_UNIPHIER) += \
 	uniphier-pxs2-vodka.dtb \
 	uniphier-sld8-ref.dtb
 dtb-$(CONFIG_ARCH_VERSATILE) += \
+	suniv-qemu.dtb \
 	versatile-ab.dtb \
 	versatile-pb.dtb
 dtb-$(CONFIG_ARCH_VEXPRESS) += \
