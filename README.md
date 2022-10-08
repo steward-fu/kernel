@@ -27,7 +27,7 @@ $ ./run.sh
   
 ## How to extract rootfs.img
 ```
-$ zcat rootfs.img | cpio -idvm
+$ sudo zcat ../rootfs.img | sudo cpio -idvm
 ```
   
 ## How to repack rootfs.img
