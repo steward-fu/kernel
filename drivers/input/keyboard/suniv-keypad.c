@@ -436,8 +436,6 @@ static void fc3000_WL_28H105_A1_handler(unsigned long unused)
             }
         }
 
-
-
         lr ^= 1;
         if(lr) {
             l = gpio_get_value(I_L1);
@@ -481,7 +479,6 @@ static void fc3000_WL_28H105_A1_handler(unsigned long unused)
         if(pre_r == 0) {
             val |= R_R1;
         }
-
     }
 
     if(pre != val) {
@@ -511,7 +508,6 @@ static void fc3000_old_handler(unsigned long unused)
     uint32_t val = 0, l = 0, r = 0;
     static uint32_t pre = 0, lr = 0, pre_l = 0, pre_r = 0, pre_select = 0, pre_start = 0;
 
-
     if(lock) {
         val = 0;
         if(gpio_get_value(I_MENU) == 0) {
@@ -519,7 +515,6 @@ static void fc3000_old_handler(unsigned long unused)
         }
     }
     else {
-
         //
         // FC3000 V1 TFT (Old Version)
         //
@@ -556,7 +551,6 @@ static void fc3000_old_handler(unsigned long unused)
         if(gpio_get_value(I_MENU) == 0) {
             val |= R_MENU;
         }
-
 
         //
         // L1 / R1 Simulation
@@ -617,7 +611,6 @@ static int __init kbd_init(void)
         I_MENU   = ((32 * 4) + 1);
         I_L2     = ((32 * 3) + 20);
         I_R2     = ((32 * 3) + 21);
-
         do_input_request(I_MENU, "menu");
     }
     else if(suniv_variant == 1) {
@@ -636,7 +629,6 @@ static int __init kbd_init(void)
         I_MENU   = ((32 * 4) + 11);
         I_L2     = ((32 * 2) + 1);
         I_R2     = ((32 * 2) + 2);
-
         do_input_request(I_MENU, "menu");
     }
     else if(suniv_variant == 2 || suniv_variant == 5) {
@@ -653,7 +645,6 @@ static int __init kbd_init(void)
         I_MENU   = ((32 * 4) + 12);	//PA1=,PA2=0
         I_L2     = ((32 * 4) + 10);
         I_R2     = ((32 * 4) + 7);
-
         do_output_request(I_MENU, "menu");
     }
     //
@@ -694,7 +685,6 @@ static int __init kbd_init(void)
         I_MENU   = ((32 * 4) + 12);	//PA1=,PA2=0
         I_L2     = ((32 * 4) + 10);
         I_R2     = ((32 * 4) + 7);
-
         do_output_request(I_MENU, "menu");
     }
 
@@ -710,7 +700,6 @@ static int __init kbd_init(void)
     do_input_request(I_START,  "start");
     do_input_request(I_L1,     "l1");
     do_input_request(I_R1,     "r1");
-
 
     mydev = input_allocate_device();
     set_bit(EV_KEY,         mydev-> evbit);
