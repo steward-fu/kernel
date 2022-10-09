@@ -19,6 +19,6 @@ if [ "$#" -ne 1 ]; then
 fi
 
 export PATH=/opt/miyoo/bin:$PATH
-sed -i -e 's/CONFIG_CMDLINE=.*/CONFIG_CMDLINE="rootwait\ root=\/dev\/mmcblk0p1\ ro\ fstype=vfat\ init=\/mininit\ --\ '$1'"/g' .config
+sed -i -e 's/CONFIG_CMDLINE=.*/CONFIG_CMDLINE="console=tty0 console=ttyS0,115200 rootwait\ root=\/dev\/mmcblk0p1\ rw\ fstype=ext4\ init=\/sbin\/init\ --\ '$1'"/g' .config
 ARCH=arm CROSS_COMPILE=arm-linux- make zImage modules dtbs -j4
 echo "task done !"

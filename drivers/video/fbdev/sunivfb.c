@@ -953,6 +953,7 @@ static void fc3000_WL_28H105_A1_lcd_init(void)
     }
     lcdc_wr_cmd(swapRB(0x29));    //Display on
     lcdc_wr_cmd(swapRB(0x2C));    //Enable Write Ram
+    mdelay(500);
 }
 
 static void fc3000_T2812_M106_24C_7D_lcd_init(void)
@@ -1093,6 +1094,7 @@ static void fc3000_T2812_M106_24C_7D_lcd_init(void)
     lcdc_wr_cmd(swapRB(0x16));
     lcdc_wr_dat(swapRB(0x28));
     lcdc_wr_cmd(swapRB(0x22));
+    mdelay(500);
 }
 
 static void smartlcd_init(struct myfb_par *par)
