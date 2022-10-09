@@ -20,7 +20,7 @@ $ sudo mv miyoo /opt
   
 ## How to build kernel
 ```console
-$ ARCH=arm make suniv_defconfig
+$ ARCH=arm make suniv-debian_defconfig
 $ ./tools/make_suniv.sh fc3000_ips2
 ```
   
