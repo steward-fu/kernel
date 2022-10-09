@@ -1,6 +1,6 @@
-# Linux Kernel 4.14.0 for FC3000 Handheld
+# Linux Kernel 4.14.0 for FC3000 Handheld (Debian Wheezy)
 ## Description
-The default serial port is UART0 (PE0, PE1) and default configuration file is arch/arm/configs/suniv_defconfig.  
+The default serial port is UART0 (PE0, PE1) and default configuration file is arch/arm/configs/suniv-debian_defconfig.  
   
 ## Support LCD panel  
 ```console
