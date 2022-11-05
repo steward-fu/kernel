@@ -683,7 +683,7 @@ int w100fb_probe(struct platform_device *pdev)
 	inf = pdev->dev.platform_data;
 	par->chip_id = chip_id;
 	par->mach = inf;
-	par->fastpll_mode = 0;
+	par->fastpll_mode = 1;
 	par->blanked = 0;
 
 	par->pll_table=w100_get_xtal_table(inf->xtal_freq);
