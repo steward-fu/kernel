@@ -541,6 +541,17 @@ static int w100fb_set_par(struct fb_info *info)
 }
 
 
+static int w100fb_ioctl(struct fb_info *info, unsigned int cmd, unsigned long arg)
+{
+    switch(cmd) {
+    case FBIO_WAITFORVSYNC:
+        w100_vsync();
+        break;
+    }
+    return 0;
+}
+
+
 /*
  *  Frame buffer operations
  */
@@ -550,6 +561,7 @@ static struct fb_ops w100fb_ops = {
 	.fb_set_par   = w100fb_set_par,
 	.fb_setcolreg = w100fb_setcolreg,
 	.fb_blank     = w100fb_blank,
+	.fb_ioctl     = w100fb_ioctl,
 	.fb_fillrect  = w100fb_fillrect,
 	.fb_copyarea  = w100fb_copyarea,
 	.fb_imageblit = cfb_imageblit,
