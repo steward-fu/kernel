@@ -232,8 +232,8 @@ static struct w100_mode corgi_fb_modes[] = {
 	.sysclk_src      = CLK_SRC_PLL,
 	.sysclk_divider  = 0,
 	.pixclk_src      = CLK_SRC_PLL,
-	.pixclk_divider  = 2,
-	.pixclk_divider_rotated = 6,
+	.pixclk_divider  = 1, //2,
+	.pixclk_divider_rotated = 5, //6,
 },{
 	.xres            = 240,
 	.yres            = 320,
