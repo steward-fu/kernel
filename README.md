@@ -16,7 +16,7 @@ $ ARCH=arm make suniv-qemu_defconfig
 $ ./tools/make_suniv.sh
 ```
   
-## How to run QEMU for FC3000 handheld
+## How to run QEMU
 ```
 $ cd
 $ wget https://github.com/steward-fu/fc3000/releases/download/v1.0/fc3000-qemu_20220929.7z
