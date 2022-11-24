@@ -237,9 +237,9 @@ static void sharpsl_battery_thread(struct work_struct *private_)
 	sharpsl_pm.battstat.ac_status = (sharpsl_pm.machinfo->read_devdata(SHARPSL_STATUS_ACIN) ? APM_AC_ONLINE : APM_AC_OFFLINE);
 
 	/* Corgi cannot confirm when battery fully charged so periodically kick! */
-	if (!sharpsl_pm.machinfo->batfull_irq && (sharpsl_pm.charge_mode == CHRG_ON)
-			&& time_after(jiffies, sharpsl_pm.charge_start_time +  SHARPSL_CHARGE_ON_TIME_INTERVAL))
-		schedule_delayed_work(&toggle_charger, 0);
+	//if (!sharpsl_pm.machinfo->batfull_irq && (sharpsl_pm.charge_mode == CHRG_ON)
+	//		&& time_after(jiffies, sharpsl_pm.charge_start_time +  SHARPSL_CHARGE_ON_TIME_INTERVAL))
+	//	schedule_delayed_work(&toggle_charger, 0);
 
 	for (i = 0; i < 5; i++) {
 		voltage = sharpsl_pm.machinfo->read_devdata(SHARPSL_BATT_VOLT);
@@ -265,8 +265,9 @@ static void sharpsl_battery_thread(struct work_struct *private_)
 		sharpsl_pm.battstat.mainbat_percent = percent;
 	}
 
-	dev_dbg(sharpsl_pm.dev, "Battery: voltage: %d, status: %d, percentage: %d, time: %ld\n", voltage,
-			sharpsl_pm.battstat.mainbat_status, sharpsl_pm.battstat.mainbat_percent, jiffies);
+	dev_dbg(sharpsl_pm.dev, "Battery: voltage: %d, status: %d, percentage: %d, time: %ld, ac_status: %d, charge_mode: %d, apm_status: %d\n", 
+        voltage, sharpsl_pm.battstat.mainbat_status, sharpsl_pm.battstat.mainbat_percent, jiffies, sharpsl_pm.battstat.ac_status, 
+        sharpsl_pm.charge_mode, apm_status);
 
 	/* Suspend if critical battery level */
 	if ((sharpsl_pm.battstat.ac_status != APM_AC_ONLINE)

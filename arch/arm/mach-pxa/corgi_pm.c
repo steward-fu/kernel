@@ -147,7 +147,7 @@ unsigned long corgipm_read_devdata(int type)
 {
 	switch(type) {
 	case SHARPSL_STATUS_ACIN:
-		return !gpio_get_value(CORGI_GPIO_AC_IN);
+		return gpio_get_value(CORGI_GPIO_AC_IN);
 	case SHARPSL_STATUS_LOCK:
 		return gpio_get_value(sharpsl_pm.machinfo->gpio_batlock);
 	case SHARPSL_STATUS_CHRGFULL:
@@ -190,9 +190,9 @@ static struct sharpsl_charger_machinfo corgi_pm_machinfo = {
 	.bat_levels       = 40,
 	.bat_levels_noac  = sharpsl_battery_levels_noac,
 	.bat_levels_acin  = sharpsl_battery_levels_acin,
-	.status_high_acin = 188,
+	.status_high_acin = 220, //188,
 	.status_low_acin  = 178,
-	.status_high_noac = 185,
+	.status_high_noac = 220, //185,
 	.status_low_noac  = 175,
 };
 
@@ -210,8 +210,8 @@ static int corgipm_init(void)
 	if (!corgipm_device)
 		return -ENOMEM;
 
-	if (!machine_is_corgi())
-	    corgi_pm_machinfo.batfull_irq = 1;
+	//if (!machine_is_corgi())
+	    //corgi_pm_machinfo.batfull_irq = 1;
 
 	corgipm_device->dev.platform_data = &corgi_pm_machinfo;
 	ret = platform_device_add(corgipm_device);
