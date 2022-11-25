@@ -655,7 +655,7 @@ static struct pxaohci_platform_data spitz_ohci_platform_data = {
 	.init		= spitz_ohci_init,
 	.exit		= spitz_ohci_exit,
 	.flags		= ENABLE_PORT_ALL | NO_OC_PROTECTION,
-	.power_budget	= 180,
+	.power_budget	= 500,
 };
 
 static void __init spitz_uhc_init(void)
