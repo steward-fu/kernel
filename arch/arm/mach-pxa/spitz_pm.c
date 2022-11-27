@@ -224,9 +224,9 @@ struct sharpsl_charger_machinfo spitz_pm_machinfo = {
 	.bat_levels       = 40,
 	.bat_levels_noac  = sharpsl_battery_levels_noac,
 	.bat_levels_acin  = sharpsl_battery_levels_acin,
-	.status_high_acin = 188,
+	.status_high_acin = 220, //188,
 	.status_low_acin  = 178,
-	.status_high_noac = 185,
+	.status_high_noac = 220, //185,
 	.status_low_noac  = 175,
 };
 

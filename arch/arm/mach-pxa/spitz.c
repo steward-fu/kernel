@@ -642,7 +642,7 @@ static int spitz_ohci_init(struct device *dev)
 	/* Only Port 2 is connected, setup USB Port 2 Output Control Register */
 	UP2OCR = UP2OCR_HXS | UP2OCR_HXOE | UP2OCR_DPPDE | UP2OCR_DMPDE;
 
-	return gpio_direction_output(SPITZ_GPIO_USB_HOST, 1);
+	return gpio_direction_output(SPITZ_GPIO_USB_HOST, 0);
 }
 
 static void spitz_ohci_exit(struct device *dev)
