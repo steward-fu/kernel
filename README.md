@@ -5,3 +5,5 @@
   
 [pxa255_c860_linux-3.11.1](https://github.com/steward-fu/kernel/tree/pxa255_c860_linux-3.11.1)  
 [pxa270_c3x00_linux-3.11.1](https://github.com/steward-fu/kernel/tree/pxa270_c3x00_linux-3.11.1)  
+  
+[t113-s3_mangopi_linux-6.0.1](https://github.com/steward-fu/kernel/tree/t113-s3_mangopi_linux-6.0.1)  
